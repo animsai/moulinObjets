@@ -2,6 +2,7 @@
  * Contains all the global variables as well as all the file manifests needed for the game
  * Author : J. Travnjak
  * Date : may 2014
+ * Latest update : avgust 2015
  */
 
 var IMGFOLDER = "./media/images/";
@@ -86,7 +87,13 @@ var objets_nav_fileManifest = [
     {id: "objetsEx1", levelId: "objets1", src: IMGFOLDER + NAV_FOLDER + "niveau2_objets_ex1.png", x: 42, y: 254},
     {id: "objetsEx2", levelId: "objets2", src: IMGFOLDER + NAV_FOLDER + "niveau2_objets_ex2.png", x: 228, y: 254},
     {id: "objetsEx3", levelId: "objets3", src: IMGFOLDER + NAV_FOLDER + "niveau2_objets_ex3.png", x: 408, y: 254},
-    {id: "objetsEx4", levelId: "objets4", src: IMGFOLDER + NAV_FOLDER + "niveau2_objets_ex4.png", x: 595, y: 254}
+    {id: "objetsEx4", levelId: "objets4", src: IMGFOLDER + NAV_FOLDER + "niveau2_objets_ex4.png", x: 595, y: 254},
+    {id: "objetsEx5", levelId: "objets5", src: IMGFOLDER + NAV_FOLDER + "niveau2_objets_ex5.png", x: 778, y: 254},
+    {id: "objetsEx6", levelId: "objets6", src: IMGFOLDER + NAV_FOLDER + "niveau2_objets_ex6.png", x: 42, y: 454},
+    {id: "objetsEx7", levelId: "objets7", src: IMGFOLDER + NAV_FOLDER + "niveau2_objets_ex7.png", x: 228, y: 454},
+    {id: "objetsEx8", levelId: "objets8", src: IMGFOLDER + NAV_FOLDER + "niveau2_objets_ex8.png", x: 408, y: 454},
+    {id: "objetsEx9", levelId: "objets9", src: IMGFOLDER + NAV_FOLDER + "niveau2_objets_ex9.png", x: 595, y: 454},
+    {id: "objetsEx10", levelId: "objets10", src: IMGFOLDER + NAV_FOLDER + "niveau2_objets_ex10.png", x: 778, y: 454}
 ];
 
 /**************************************************************************************************************************/
