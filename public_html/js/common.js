@@ -108,9 +108,9 @@ var levels = [
     {id: "objets3", theme: "objets", media: "objets3_fileManifest", interaction: InteractionTypeEnum.GUIDED},
     {id: "objets4", theme: "objets", media: "objets4_fileManifest", interaction: InteractionTypeEnum.GUIDED},
     {id: "objets5", theme: "objets", media: "objets5_fileManifest", interaction: InteractionTypeEnum.GUIDED},
-    {id: "objets6", theme: "objets", media: "objets6_fileManifest", interaction: InteractionTypeEnum.GUIDED}/*,
+    {id: "objets6", theme: "objets", media: "objets6_fileManifest", interaction: InteractionTypeEnum.GUIDED},
     {id: "objets7", theme: "objets", media: "objets7_fileManifest", interaction: InteractionTypeEnum.GUIDED},
-    {id: "objets8", theme: "objets", media: "objets8_fileManifest", interaction: InteractionTypeEnum.GUIDED},
+    {id: "objets8", theme: "objets", media: "objets8_fileManifest", interaction: InteractionTypeEnum.GUIDED}/*,
     {id: "objets9", theme: "objets", media: "objets9_fileManifest", interaction: InteractionTypeEnum.GUIDED},
     {id: "objets10", theme: "objets", media: "objets10_fileManifest", interaction: InteractionTypeEnum.GUIDED}*/
    ];
@@ -246,6 +246,44 @@ var objets6_fileManifest = [
     {id: "raquette_snd", src: SNDFOLDER + "objets/level6/3objets.raquette.mp3"},
     //instruction and feedback sounds
     {id: "consignes_objets6", src: SNDFOLDER + "objets/level5/5objets.consigne.1.mp3"}
+];
+
+var objets7_fileManifest = [
+    //background
+    {id: "scene", src: IMGFOLDER + "objets/level7/objets_decor.png"},
+    //level images
+    {id: "appareilPhoto", src: IMGFOLDER + "objets/level7/objets_appareilPhoto.png", x: 200, y: 440, width: 88, height: 55},
+    {id: "balai", src: IMGFOLDER + "objets/level7/objets_balai.png", x: 690, y: 308, width: 94, height: 248},
+    {id: "telecommande", src: IMGFOLDER + "objets/level7/objets_telecommande.png", x: 500, y: 650, width: 70, height: 60},
+    {id: "cube", src: IMGFOLDER + "objets/level7/objets_cube.png", x: 855, y: 620, width: 62, height: 72},
+    {id: "bus", src: IMGFOLDER + "objets/level7/objets_bus.png", x: 500, y: 255, width: 115, height: 58},
+    //level sounds
+    {id: "appareilPhoto_snd", src: SNDFOLDER + "objets/level7/3objets.appareilPhoto.mp3"},
+    {id: "balai_snd", src: SNDFOLDER + "objets/level7/3objets.balai.mp3"},
+    {id: "telecommande_snd", src: SNDFOLDER + "objets/level7/3objets.telecommande.mp3"},
+    {id: "cube_snd", src: SNDFOLDER + "objets/level7/3objets.cube.mp3"},
+    {id: "bus_snd", src: SNDFOLDER + "objets/level7/3objets.bus.mp3"},
+    //instruction and feedback sounds
+    {id: "consignes_objets7", src: SNDFOLDER + "objets/level5/5objets.consigne.1.mp3"}
+];
+
+var objets8_fileManifest = [
+    //background
+    {id: "scene", src: IMGFOLDER + "objets/level8/objets_decor.png"},
+    //level images
+    {id: "ballon", src: IMGFOLDER + "objets/level8/objets_ballon.png", x: 530, y: 550, width: 85, height: 85},
+    {id: "horloge", src: IMGFOLDER + "objets/level8/objets_horloge.png", x: 523, y: 130, width: 166, height: 166},
+    {id: "oreiller", src: IMGFOLDER + "objets/level8/objets_oreiller.png", x: 130, y: 585, width: 149, height: 92},
+    {id: "verre", src: IMGFOLDER + "objets/level8/objets_verre.png", x: 590, y: 380, width: 45, height: 60},
+    {id: "biberon", src: IMGFOLDER + "objets/level8/objets_biberon.png", x: 450, y: 460, width: 42, height: 80},
+    //level sounds
+    {id: "ballon_snd", src: SNDFOLDER + "objets/level8/3objets.ballon.mp3"},
+    {id: "horloge_snd", src: SNDFOLDER + "objets/level8/3objets.horloge.mp3"},
+    {id: "oreiller_snd", src: SNDFOLDER + "objets/level8/3objets.oreiller.mp3"},
+    {id: "verre_snd", src: SNDFOLDER + "objets/level8/3objets.verre.mp3"},
+    {id: "biberon_snd", src: SNDFOLDER + "objets/level8/3objets.biberon.mp3"},
+    //instruction and feedback sounds
+    {id: "consignes_objets8", src: SNDFOLDER + "objets/level5/5objets.consigne.1.mp3"}
 ];
 
 
