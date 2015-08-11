@@ -75,7 +75,8 @@
         handleItemClick: function(event, itemId) {
             switch (itemId) {
                 case "menu":
-                    new Moulin.Navigation(nav_fileManifest, this.stage);
+                     //go back to submenu Objets directly
+                    new Moulin.Navigation(nav_fileManifest, this.stage, false, "objets");
                     break;
                 case "next" :
                     Utils.launchLevel(this.nextLevel.id, this.stage);
