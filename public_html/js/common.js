@@ -106,7 +106,13 @@ var levels = [
     {id: "objets1", theme: "objets", media: "objets1_fileManifest", interaction: InteractionTypeEnum.GUIDED},
     {id: "objets2", theme: "objets", media: "objets2_fileManifest", interaction: InteractionTypeEnum.GUIDED},
     {id: "objets3", theme: "objets", media: "objets3_fileManifest", interaction: InteractionTypeEnum.GUIDED},
-    {id: "objets4", theme: "objets", media: "objets4_fileManifest", interaction: InteractionTypeEnum.GUIDED}
+    {id: "objets4", theme: "objets", media: "objets4_fileManifest", interaction: InteractionTypeEnum.GUIDED},
+    {id: "objets5", theme: "objets", media: "objets5_fileManifest", interaction: InteractionTypeEnum.GUIDED},
+    {id: "objets6", theme: "objets", media: "objets6_fileManifest", interaction: InteractionTypeEnum.GUIDED}/*,
+    {id: "objets7", theme: "objets", media: "objets7_fileManifest", interaction: InteractionTypeEnum.GUIDED},
+    {id: "objets8", theme: "objets", media: "objets8_fileManifest", interaction: InteractionTypeEnum.GUIDED},
+    {id: "objets9", theme: "objets", media: "objets9_fileManifest", interaction: InteractionTypeEnum.GUIDED},
+    {id: "objets10", theme: "objets", media: "objets10_fileManifest", interaction: InteractionTypeEnum.GUIDED}*/
    ];
 
 
@@ -200,6 +206,46 @@ var objets4_fileManifest = [
     {id: "appareilPhoto_snd", src: SNDFOLDER + "objets/level4/3objets.appareilPhoto.mp3"},
     //instruction and feedback sounds
     {id: "consignes_objets4", src: SNDFOLDER + "objets/level4/3objets.consigne.1.mp3"}
+];
+
+var objets5_fileManifest = [
+    //background
+    {id: "scene", src: IMGFOLDER + "objets/level5/objets_decor.png"},
+    //level images
+    {id: "bol", src: IMGFOLDER + "objets/level5/objets_bol.png", x: 580, y: 383, width: 92, height: 62},
+    {id: "helico", src: IMGFOLDER + "objets/level5/objets_helico.png", x: 57, y: 218, width: 90, height: 79},
+    {id: "couteau", src: IMGFOLDER + "objets/level5/objets_couteau.png", x: 450, y: 500, width: 128, height: 32},
+    {id: "panier", src: IMGFOLDER + "objets/level5/objets_panier.png", x: 755, y: 500, width: 177, height: 163},
+    {id: "plante", src: IMGFOLDER + "objets/level5/objets_plante.png", x: 250, y: 320, width: 170, height: 217},
+    {id: "velo", src: IMGFOLDER + "objets/level5/objets_velo.png", x: 45, y: 450, width: 394, height: 238},
+    //level sounds
+    {id: "bol_snd", src: SNDFOLDER + "objets/level5/3objets.bol.mp3"},
+    {id: "helico_snd", src: SNDFOLDER + "objets/level5/3objets.helico.mp3"},
+    {id: "couteau_snd", src: SNDFOLDER + "objets/level5/3objets.couteau.mp3"},
+    {id: "panier_snd", src: SNDFOLDER + "objets/level5/3objets.panier.mp3"},
+    {id: "plante_snd", src: SNDFOLDER + "objets/level5/3objets.plante.mp3"},
+    {id: "velo_snd", src: SNDFOLDER + "objets/level5/3objets.velo.mp3"},
+    //instruction and feedback sounds
+    {id: "consignes_objets5", src: SNDFOLDER + "objets/level5/5objets.consigne.1.mp3"}
+];
+
+var objets6_fileManifest = [
+    //background
+    {id: "scene", src: IMGFOLDER + "objets/level6/objets_decor.png"},
+    //level images
+    {id: "horloge", src: IMGFOLDER + "objets/level6/objets_horloge_v2.png", x: 590, y: 370, width: 70, height: 70},
+    {id: "poupee", src: IMGFOLDER + "objets/level6/objets_poupee_v2.png", x: 57, y: 248, width: 104, height: 82},
+    {id: "pot", src: IMGFOLDER + "objets/level6/objets_pot.png", x: 450, y: 570, width: 133, height: 136},
+    {id: "traineau", src: IMGFOLDER + "objets/level6/objets_traineau.png", x: 755, y: 570, width: 260, height: 109},
+    {id: "raquette", src: IMGFOLDER + "objets/level6/objets_raquette.png", x: 150, y: 385, width: 158, height: 140},
+    //level sounds
+    {id: "horloge_snd", src: SNDFOLDER + "objets/level6/3objets.horloge.mp3"},
+    {id: "poupee_snd", src: SNDFOLDER + "objets/level6/3objets.poupee.mp3"},
+    {id: "pot_snd", src: SNDFOLDER + "objets/level6/3objets.pot.mp3"},
+    {id: "traineau_snd", src: SNDFOLDER + "objets/level6/3objets.traineau.mp3"},
+    {id: "raquette_snd", src: SNDFOLDER + "objets/level6/3objets.raquette.mp3"},
+    //instruction and feedback sounds
+    {id: "consignes_objets6", src: SNDFOLDER + "objets/level5/5objets.consigne.1.mp3"}
 ];
 
 
