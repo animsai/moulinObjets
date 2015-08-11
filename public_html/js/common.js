@@ -91,9 +91,7 @@ var objets_nav_fileManifest = [
     {id: "objetsEx5", levelId: "objets5", src: IMGFOLDER + NAV_FOLDER + "niveau2_objets_ex5.png", x: 778, y: 254},
     {id: "objetsEx6", levelId: "objets6", src: IMGFOLDER + NAV_FOLDER + "niveau2_objets_ex6.png", x: 42, y: 454},
     {id: "objetsEx7", levelId: "objets7", src: IMGFOLDER + NAV_FOLDER + "niveau2_objets_ex7.png", x: 228, y: 454},
-    {id: "objetsEx8", levelId: "objets8", src: IMGFOLDER + NAV_FOLDER + "niveau2_objets_ex8.png", x: 408, y: 454},
-    {id: "objetsEx9", levelId: "objets9", src: IMGFOLDER + NAV_FOLDER + "niveau2_objets_ex9.png", x: 595, y: 454},
-    {id: "objetsEx10", levelId: "objets10", src: IMGFOLDER + NAV_FOLDER + "niveau2_objets_ex10.png", x: 778, y: 454}
+    {id: "objetsEx8", levelId: "objets8", src: IMGFOLDER + NAV_FOLDER + "niveau2_objets_ex8.png", x: 408, y: 454}
 ];
 
 /**************************************************************************************************************************/
@@ -110,9 +108,7 @@ var levels = [
     {id: "objets5", theme: "objets", media: "objets5_fileManifest", interaction: InteractionTypeEnum.GUIDED},
     {id: "objets6", theme: "objets", media: "objets6_fileManifest", interaction: InteractionTypeEnum.GUIDED},
     {id: "objets7", theme: "objets", media: "objets7_fileManifest", interaction: InteractionTypeEnum.GUIDED},
-    {id: "objets8", theme: "objets", media: "objets8_fileManifest", interaction: InteractionTypeEnum.GUIDED}/*,
-    {id: "objets9", theme: "objets", media: "objets9_fileManifest", interaction: InteractionTypeEnum.GUIDED},
-    {id: "objets10", theme: "objets", media: "objets10_fileManifest", interaction: InteractionTypeEnum.GUIDED}*/
+    {id: "objets8", theme: "objets", media: "objets8_fileManifest", interaction: InteractionTypeEnum.GUIDED}
    ];
 
 
@@ -273,17 +269,36 @@ var objets8_fileManifest = [
     //level images
     {id: "ballon", src: IMGFOLDER + "objets/level8/objets_ballon.png", x: 530, y: 550, width: 85, height: 85},
     {id: "horloge", src: IMGFOLDER + "objets/level8/objets_horloge.png", x: 523, y: 130, width: 166, height: 166},
-    {id: "oreiller", src: IMGFOLDER + "objets/level8/objets_oreiller.png", x: 130, y: 585, width: 149, height: 92},
-    {id: "verre", src: IMGFOLDER + "objets/level8/objets_verre.png", x: 590, y: 380, width: 45, height: 60},
+    {id: "coussin", src: IMGFOLDER + "objets/level8/objets_coussin.png", x: 130, y: 585, width: 149, height: 92},
+    {id: "verre", src: IMGFOLDER + "objets/level8/objets_verre.png", x: 590, y: 385, width: 45, height: 60},
     {id: "biberon", src: IMGFOLDER + "objets/level8/objets_biberon.png", x: 450, y: 460, width: 42, height: 80},
     //level sounds
     {id: "ballon_snd", src: SNDFOLDER + "objets/level8/3objets.ballon.mp3"},
     {id: "horloge_snd", src: SNDFOLDER + "objets/level8/3objets.horloge.mp3"},
-    {id: "oreiller_snd", src: SNDFOLDER + "objets/level8/3objets.oreiller.mp3"},
+    {id: "coussin_snd", src: SNDFOLDER + "objets/level8/3objets.coussin.mp3"},
     {id: "verre_snd", src: SNDFOLDER + "objets/level8/3objets.verre.mp3"},
     {id: "biberon_snd", src: SNDFOLDER + "objets/level8/3objets.biberon.mp3"},
     //instruction and feedback sounds
     {id: "consignes_objets8", src: SNDFOLDER + "objets/level5/5objets.consigne.1.mp3"}
+];
+
+var objets9_fileManifest = [
+    //background
+    {id: "scene", src: IMGFOLDER + "objets/level9/objets_decor.png"},
+    //level images
+    {id: "ballon", src: IMGFOLDER + "objets/level9/objets_ballon.png", x: 530, y: 550, width: 85, height: 85},
+    {id: "horloge", src: IMGFOLDER + "objets/level9/objets_horloge.png", x: 523, y: 130, width: 166, height: 166},
+    {id: "coussin", src: IMGFOLDER + "objets/level9/objets_coussin.png", x: 130, y: 585, width: 149, height: 92},
+    {id: "verre", src: IMGFOLDER + "objets/level9/objets_verre.png", x: 590, y: 385, width: 45, height: 60},
+    {id: "biberon", src: IMGFOLDER + "objets/level9/objets_biberon.png", x: 450, y: 460, width: 42, height: 80},
+    //level sounds
+    {id: "ballon_snd", src: SNDFOLDER + "objets/level9/3objets.ballon.mp3"},
+    {id: "horloge_snd", src: SNDFOLDER + "objets/level9/3objets.horloge.mp3"},
+    {id: "coussin_snd", src: SNDFOLDER + "objets/level9/3objets.coussin.mp3"},
+    {id: "verre_snd", src: SNDFOLDER + "objets/level9/3objets.verre.mp3"},
+    {id: "biberon_snd", src: SNDFOLDER + "objets/level9/3objets.biberon.mp3"},
+    //instruction and feedback sounds
+    {id: "consignes_objets9", src: SNDFOLDER + "objets/level5/5objets.consigne.1.mp3"}
 ];
 
 
